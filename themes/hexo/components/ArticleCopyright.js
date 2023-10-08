@@ -25,7 +25,7 @@ export default function ArticleCopyright () {
             {BLOG.AUTHOR}
           </Link>
         </li>
-        <li>
+        {/* <li>
         <strong className='mr-2'>{locale.COMMON.URL}:</strong>
           <a className="whitespace-normal break-words hover:underline" href={path}>
             {path}
@@ -34,7 +34,7 @@ export default function ArticleCopyright () {
         <li>
           <strong className='mr-2'>{locale.COMMON.COPYRIGHT}:</strong>
           {locale.COMMON.COPYRIGHT_NOTICE}
-        </li>
+        </li> */}
       </ul>
     </section>
   );

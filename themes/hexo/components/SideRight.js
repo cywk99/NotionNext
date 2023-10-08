@@ -63,7 +63,7 @@ export default function SideRight(props) {
         <LatestPostsGroup {...props} />
       </Card>}
 
-      <Announcement post={notice}/>
+      {/* <Announcement post={notice}/> */}
 
       {BLOG.COMMENT_WALINE_SERVER_URL && BLOG.COMMENT_WALINE_RECENT && <HexoRecentComments/>}
 
